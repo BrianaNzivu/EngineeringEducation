@@ -95,7 +95,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
         android:layout_marginBottom="353dp"
-        android:text="0"
         android:textColor="@color/teal_200"
         android:textSize="22dp"
         android:textStyle="bold"

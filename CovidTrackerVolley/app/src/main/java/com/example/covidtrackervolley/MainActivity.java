@@ -40,27 +40,16 @@ public class MainActivity extends AppCompatActivity {
         // Create a String request using Volley Library
 
         String myUrl = "https://corona.lmao.ninja/v2/all";
-
         StringRequest myRequest = new StringRequest(Request.Method.GET, myUrl,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-
                         try{
                             //Create a JSON object containing information from the API.
                             JSONObject myJsonObject = new JSONObject(response.toString());
-
-                            totalCasesWorld.setText(
-                                    myJsonObject.getString(
-                                            "cases"));
-
-                            totalRecoveredWorld.setText(
-                                    myJsonObject.getString(
-                                            "recovered"));
-
-                            totalDeathsWorld.setText(
-                                    myJsonObject.getString(
-                                            "deaths"));
+                            totalCasesWorld.setText(myJsonObject.getString("cases"));
+                            totalRecoveredWorld.setText(myJsonObject.getString("recovered"));
+                            totalDeathsWorld.setText(myJsonObject.getString("deaths"));
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
