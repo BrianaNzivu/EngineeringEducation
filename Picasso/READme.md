@@ -5,6 +5,7 @@ Visual representation in mobile application development is a growing UI/UX trend
 
 ### Uses of Picasso
 Picasso has the following features:
+- Image loading.
 - Resizing and Scaling of images. 
 - Center Cropping images.
 - Rotation and Transformation of images. 
