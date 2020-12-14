@@ -221,9 +221,9 @@ Add internet permission to you application.
 ### Step 3 – Initialize objects. 
 In our `MainActivity` class, initialize the image view and the buttons that are in the layout resource file.
 ```java
-ImageView imageView;
+ ImageView imageView;
  int i = 0;
-  Button buttonDrawableImage,buttonUrlImage, buttonErrorImage, buttonPlaceholderImage, buttonCallback, buttonResizeImage, buttonRotateImage, buttonScaleImage, buttonTarget;
+ Button buttonDrawableImage,buttonUrlImage, buttonErrorImage, buttonPlaceholderImage, buttonCallback, buttonResizeImage, buttonRotateImage, buttonScaleImage,       buttonTarget;
 ```
 
 ### Step 4 – Create a custom method.
@@ -529,5 +529,5 @@ We are done! Let us run the app.
 ### Conclusion. 
 Picasso is a powerful image loading library with various features. We have discussed scaling, resizing, targets, callbacks, and the rest. Instead of manually implementing all these features with a bunch of code, why not use Picasso, which is easy to use and offers better syntax. Go on and read more about Picasso in their official documentation and other features offered by Picasso and implement them in Android Applications. 
 
-Access the source code on [Github]. 
+Access the source code on [Github](https://github.com/BrianaNzivu/EngineeringEducation/tree-save/main/Picasso). 
 Download the sample APK from Google [Drive]. 
