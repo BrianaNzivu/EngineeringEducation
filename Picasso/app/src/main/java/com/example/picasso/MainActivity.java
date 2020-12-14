@@ -63,54 +63,56 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String url = "https://www.pexels.com/photo/low-angle-photo-of-woman-leaning-on-metal-railing-3621953/";
 
         switch (view.getId()) {
+            case R.id.showUrl:
+                Picasso.get().load(R.drawable.shh).into(imageView);
+                break;
+
             case R.id.showDrawable:
                 Picasso.get().load(R.drawable.image).into(imageView);
                 break;
+
             case R.id.showPlaceholder:
                 Picasso.get().load(R.drawable.placeholder).into(imageView);
                 break;
-            case R.id.showUrl:
-                Picasso.get().load(url).into(imageView);
-                break;
+
             case R.id.showError:
                 Picasso.get().load("www.google.com").placeholder(R.drawable.placeholder).error(R.drawable.error).into(imageView);
                 break;
+
             case R.id.showCallback:
                 Picasso.get().load("www.google.com").error(R.mipmap.ic_launcher).into(imageView, new Callback() {
                     @Override
                     public void onSuccess() {
                         Log.d("TAG", "onSuccess");
-                        Toast.makeText(getApplicationContext(), "Succeful", Toast.LENGTH_SHORT).show();
                     }
-
                     @Override
-                    public void onError(Exception e) {
-                        Toast.makeText(getApplicationContext(), "An error has occurred", Toast.LENGTH_SHORT).show();
+                    public void onError(Exception exception) {
+                        Toast.makeText(getApplicationContext(), "Cannot fetch data error", Toast.LENGTH_SHORT).show();
                     }
-
                 });
                 break;
+
             case R.id.showResize:
                 Picasso.get().load(R.drawable.image).resize(200, 200).into(imageView);
                 break;
+
             case R.id.showRotation:
                 Picasso.get().load(R.drawable.image).rotate(90f).into(imageView);
                 break;
-            case R.id.showScaling:
 
+            case R.id.showScaling:
                 if (i == 3)
                     i = 1;
-
                 else {
-                    if (i == 1) {
-                        Picasso.get().load(R.drawable.image).fit().into(imageView);
-                        Toast.makeText(getApplicationContext(), "Scale:Fit", Toast.LENGTH_SHORT).show();
+                    if (i == 3) {
+                        Picasso.get().load(R.drawable.image).resize(200, 200).centerInside().into(imageView);
+                        Toast.makeText(getApplicationContext(), "Scale:Center Inside", Toast.LENGTH_SHORT).show();
                     } else if (i == 2) {
                         Picasso.get().load(R.drawable.image).resize(200, 200).centerCrop().into(imageView);
                         Toast.makeText(getApplicationContext(), "Scale:Center Crop", Toast.LENGTH_SHORT).show();
-                    } else if (i == 3) {
-                        Picasso.get().load(R.drawable.image).resize(200, 200).centerInside().into(imageView);
-                        Toast.makeText(getApplicationContext(), "Scale:Center Inside", Toast.LENGTH_SHORT).show();
+                    } else if (i == 1) {
+                        Picasso.get().load(R.drawable.image).fit().into(imageView);
+                        Toast.makeText(getApplicationContext(), "Scale:Fit", Toast.LENGTH_SHORT).show();
                     }
                     i++;
                 }
@@ -124,19 +126,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Target myTarget = new Target() {
         @Override
-        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+        public void onBitmapLoaded(Bitmap myBitmap, Picasso.LoadedFrom from) {
 
-            imageView.setImageBitmap(bitmap);
+            imageView.setImageBitmap(myBitmap);
         }
 
         @Override
-        public void onBitmapFailed(Exception e, Drawable errorDrawable) {
-            imageView.setImageDrawable(errorDrawable);
+        public void onBitmapFailed(Exception exception, Drawable drawablerror) {
+            imageView.setImageDrawable(drawablerror);
         }
 
         @Override
-        public void onPrepareLoad(Drawable placeHolderDrawable) {
-            imageView.setImageDrawable(placeHolderDrawable);
+        public void onPrepareLoad(Drawable drawablePlaceHoler) {
+            imageView.setImageDrawable(drawablePlaceHoler);
         }
     };
 }
