@@ -10,7 +10,8 @@ Picasso has the following features:
 - Center Cropping images.
 - Rotation and Transformation of images. 
 - Placeholder and Error images
-- Priority requests Memory and disk Caching.
+- Priority requests
+- Memory and disk Caching.
 - Fading
 - Supports parallel downloading and request cancellation. 
 
