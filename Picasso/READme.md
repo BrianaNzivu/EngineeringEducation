@@ -368,6 +368,7 @@ Next creat a `Target` object with it's respective methods.
 Rather than downloading images, we can simply display the images through picasso using a link without downloading them. We normally use a load() method. In the `MainActivity.java` class in the `initializeView` method add the following lines of code:
 
 ```java
+ String url = "https://www.pexels.com/photo/low-angle-photo-of-woman-leaning-on-metal-railing-3621953/";
  buttonUrlImage = (Button) findViewById(R.id.showUrl);
  buttonUrlImage.setOnClickListener(this);
 
