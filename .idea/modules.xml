@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Engineering Education.iml" filepath="$PROJECT_DIR$/.idea/Engineering Education.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarvelRetrofit/app/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/MarvelRetrofit/app/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CovidTrackerVolley/app/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/CovidTrackerVolley/app/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CovidTrackerVolley/app/build/build.iml" filepath="$PROJECT_DIR$/CovidTrackerVolley/app/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarvelRetrofit/app/build/build1.iml" filepath="$PROJECT_DIR$/MarvelRetrofit/app/build/build1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarvelRetrofit/app/build/intermediates/packaged_manifests/debug/debug.iml" filepath="$PROJECT_DIR$/MarvelRetrofit/app/build/intermediates/packaged_manifests/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CovidTrackerVolley/app/src/main/main.iml" filepath="$PROJECT_DIR$/CovidTrackerVolley/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarvelRetrofit/app/src/main/main1.iml" filepath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarvelRetrofit/app/build/intermediates/merged_manifest/debug/out/out.iml" filepath="$PROJECT_DIR$/MarvelRetrofit/app/build/intermediates/merged_manifest/debug/out/out.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarvelRetrofit/app/src/test/test.iml" filepath="$PROJECT_DIR$/MarvelRetrofit/app/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CovidTrackerVolley/app/src/test/test1.iml" filepath="$PROJECT_DIR$/CovidTrackerVolley/app/src/test/test1.iml" />
     </modules>
   </component>
 </project>
