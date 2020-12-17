@@ -1,4 +1,4 @@
-In this article, we will learn how to make API Requests using Retrofit. We will create a simple application that shows a list of Marvel characters from an API.
+This article will illustrate how to make API requests using Retrofit. We will create a simple application that shows a list of Marvel characters from an API.
 
 ### Introduction
 Networking is a crucial factor in mobile development. Most, if not all, mobile applications incorporate networking. Applications are either sending or receiving information. Initially, developers did networking on the `main thread`. Networking on the `main thread` made applications less user-friendly since screens would "freeze." Networking on the main thread stopped after the Honeycomb version was released. Google then developed Volley in 2013. You can read my article on Volley [here](https://www.section.io/engineering-education/making-api-requests-using-volley-android/). Volley offered something better: It was faster, better functionality, simpler syntax, etc. Still, there was more room for growth when it came to networking. Square introduced Retrofit. **Retrofit** is a type-safe HTTP Networking library used for Android and Java. Retrofit was even better since it was super fast, better functionality, and even simpler syntax.
@@ -34,21 +34,13 @@ Retrofit is used to perform the following tasks:
 - Retrofit instance - This java class is used to send out requests to an API.
 - Interface class- This java class is used to define endpoints.
 
-### Useful Terminology
-- [Retrofit](https://square.github.io/retrofit/) - This refers to a type-safe HTTP Networking library used for Android and Java.
-- [API](https://en.wikipedia.org/wiki/API) - Software that contains data used for communication between two applications.
-- [JSON](https://medium.com/swlh/what-is-json-used-for-in-javascript-programming-9d71284359a9) - (JavaScript Object Notation) is a lightweight data-interchange format.
-- [Permission](https://developer.android.com/guide/topics/permissions/overview)- Statements that allow an android application to access different properties that contain a user's sensitive information.
-- Connection pooling - The act of recycling previous connections for future requests.
-
 ### Prerequisites
-- It would be best to have [Android Studio](https://developer.android.com/studio) installed.
-- The reader should have a beginner level understanding of XML and Java programming language.
-- The reader should have basic knowledge about REST APIs, JSON, and making network requests.
+- Have [Android Studio](https://developer.android.com/studio) installed.
+- The reader should have a beginner level understanding of  Java and XML.
+- The reader should have basic knowledge about making network requests, JSON, and REST APIs.
 
 ### Step 1 – Create a new AndroidStudio Project
-Open Android Studio. Select Start new Android Studio Project -> Empty Activity. We'll name the project CovidTrackerRetrofit. Click Finish and wait for the project to build.
-
+Open Android Studio and Start new Android Studio Project -> Empty Activity. Let us name the project MarvelRetrofit. Select Finish and wait for the project to build.
 ![Name the project](/engineering-education/making-api-requests-using-retrofit-android/name.jpg)
 
 ### Step 2 – Adding Retrofit to our application.
@@ -81,8 +73,8 @@ Add the following lines of code to your resource layout file:
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@color/white">
 
@@ -210,8 +202,7 @@ That is it! Let us run our application.
 
 
 ### To Wrap up
-We have learned that networking is a crucial factor in mobile application development. We have learned how to use Retrofit, and we have discussed its advantages and disadvantages. **Did you know that Retrofit takes 312ms to carry out one discussion? That is super fast.**
+We have learned that networking is a crucial factor in mobile application development. We have learned how to use Retrofit and their advantages and disadvantages. **Did you know that Retrofit takes 312ms to carry out one discussion? That is super fast.** 
 Check out other ways to use Retrofit in their official [documentation](https://square.github.io/retrofit/).
-
-Access the application's source code on [GitHub](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/MarvelRetrofit). 
-Download the Retrofit sample APK on Google [Drive](https://drive.google.com/file/d/1v_C-cgkmTaVswyfnC7s60nWcs6f_ncWf/view?usp=sharing).
+You can access this tutorial's code on [GitHub](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/MarvelRetrofit). 
+You can also download the sample APK on Google [Drive](https://drive.google.com/file/d/1v_C-cgkmTaVswyfnC7s60nWcs6f_ncWf/view?usp=sharing).
