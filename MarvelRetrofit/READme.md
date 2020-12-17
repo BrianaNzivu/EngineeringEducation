@@ -43,11 +43,11 @@ Retrofit is used to perform the following tasks:
 
 ### Prerequisites
 - It would be best to have [Android Studio](https://developer.android.com/studio) installed.
--The reader should have a beginner level understanding of XML and Java programming language.
--The reader should have basic knowledge about REST APIs, JSON, and making network requests.
+- The reader should have a beginner level understanding of XML and Java programming language.
+- The reader should have basic knowledge about REST APIs, JSON, and making network requests.
 
 ### Step 1 – Create a new AndroidStudio Project
-- Open Android Studio. Select Start new Android Studio Project -> Empty Activity. We'll name the project CovidTrackerRetrofit. Click Finish and wait for the project to build.
+Open Android Studio. Select Start new Android Studio Project -> Empty Activity. We'll name the project CovidTrackerRetrofit. Click Finish and wait for the project to build.
 
 ![Name the project](/engineering-education/making-api-requests-using-retrofit-android/name.jpg)
 
@@ -60,11 +60,11 @@ implementation 'com.squareup.retrofit2:converter-gson:2.7.2'
 implementation 'com.squareup.okhttp3:okhttp:3.6.0'
 ```
 **Note:One can add differennt convertors depending on the json one would like to use. The following are examples of some of the converters:**
-`Jackson : com.squareup.retrofit2:converter-jackson:2.1.0`
-`Moshi : com.squareup.retrofit2:converter-moshi:2.1.0`
-`Protobuf : com.squareup.retrofit2:converter-protobuf:2.1.0`
-`Wire : com.squareup.retrofit2:converter-wire:2.1.0`
-`Simple XML : com.squareup.retrofit2:converter-simplexml:2.1.0`
+- `Jackson : com.squareup.retrofit2:converter-jackson:2.1.0`
+- `Moshi : com.squareup.retrofit2:converter-moshi:2.1.0`
+- `Protobuf : com.squareup.retrofit2:converter-protobuf:2.1.0`
+- `Wire : com.squareup.retrofit2:converter-wire:2.1.0`
+- `Simple XML : com.squareup.retrofit2:converter-simplexml:2.1.0`
 
 Add internet permission to you application.
 
@@ -79,7 +79,7 @@ Add the following lines of code to your resource layout file:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
- 	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
