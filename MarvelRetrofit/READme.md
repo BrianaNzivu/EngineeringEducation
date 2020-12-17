@@ -6,11 +6,11 @@ Most developers have then switched to using Retrofit to make API requests.
 
 ### Uses of Retrofit.
 Retrofit is used to perform the following tasks:
-- It manages the process of creating, sending, and receiving HTTP requests and responses.
-- Automatically alternates IP addresses (if possible) if a connection to a web service fails for any reason.
-- Retrofit pools connections to reduce latency.  
+- It manages the process of receiving, sending, and creating HTTP requests and responses.
+- It alternates IP addresses if there is a connection to a web service failure.
 - It caches responses to avoid sending duplicate requests.
-- Essentially, if any issues occur in contacting the API, Retrofit will attempt to resolve these issues for us before giving up, sending errors, or crashing our application entirely.
+- Retrofit pools connections to reduce latency.
+- Retrofit resolves issues before sending an error and crashing the app.
 
 
 ### Advantages of Retrofit.
