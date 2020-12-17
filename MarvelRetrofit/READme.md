@@ -38,7 +38,7 @@ Retrofit is used to perform the following tasks:
 - [Retrofit](https://square.github.io/retrofit/) - This refers to a type-safe HTTP Networking library used for Android and Java.
 - [API](https://en.wikipedia.org/wiki/API) - Software that contains data used for communication between two applications.
 - [JSON](https://medium.com/swlh/what-is-json-used-for-in-javascript-programming-9d71284359a9) - (JavaScript Object Notation) is a lightweight data-interchange format.
-- [Permission](JavaScript Object Notation)- Statements that allow an android application to access different properties that contain a user's sensitive information.
+- [Permission](https://developer.android.com/guide/topics/permissions/overview)- Statements that allow an android application to access different properties that contain a user's sensitive information.
 - Connection pooling - The act of recycling previous connections for future requests.
 
 ### Prerequisites
@@ -206,10 +206,12 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 That is it! Let us run our application.
+![Retrofit](/engineering-education/making-api-requests-using-retrofit-android/app.jpg)
+
 
 ### To Wrap up
 We have learned that networking is a crucial factor in mobile application development. We have learned how to use Retrofit, and we have discussed its advantages and disadvantages. **Did you know that Retrofit takes 312ms to carry out one discussion? That is super fast.**
 Check out other ways to use Retrofit in their official [documentation](https://square.github.io/retrofit/).
 
-Access the application's source code on [GitHub](). 
-Download the Retrofit sample APK on Google Drive.
+Access the application's source code on [GitHub](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/MarvelRetrofit). 
+Download the Retrofit sample APK on Google [Drive](https://drive.google.com/file/d/1v_C-cgkmTaVswyfnC7s60nWcs6f_ncWf/view?usp=sharing).
