@@ -1,19 +1,19 @@
 This article will illustrate the different features offered by Picasso in Android applications.
 
 ### Introduction
-Visual representation in mobile application development is a growing UI/UX trend. In this current era, most of our minds seem to understand either graphics in motion or pictures than words. With time, most mobile applications, such as Instagram, Facebook, Twitter, LinkedIn, etc., started implementing visual representation. It was not perfect the first time. Images were of low quality, could neither be downloaded nor edited, and screens would "freeze" as pictures loaded. As much as it was an improvement in mobile development, it was still hectic. Developers had to solve these problems. Many visual representation libraries such as `Glide`, `Picasso`, `Image loader`, `Fresco`, etc ,were developed. In his article, we will discuss **Picasso**. **Picasso** is a powerful image loading, downloading, and caching library developed by Square. Picasso offers better image quality, disk caching, and simpler syntax to carry out various library features.
+Visual representation in mobile application development is a growing UI/UX trend. In this current era, most of our minds seem to understand either graphics in motion or pictures rather than words. With time, most mobile applications, such as Instagram, Facebook, Twitter, LinkedIn, etc., started implementing visual representation. It was not perfect the first time. Images were of low quality, could neither be downloaded nor edited, and screens would "freeze" as pictures loaded. As much as it was an improvement in mobile development, it was still hectic. Developers had to solve these problems. Many visual representation libraries such as `Glide`, `Picasso`, `Image loader`, `Fresco`, etc ,were then developed. In his article, we will discuss **Picasso**. **Picasso** is a powerful image loading, downloading, and caching library developed by Square. Picasso offers better image quality, disk caching, and simpler syntax to carry out various library features.
 
 ### Uses of Picasso
 Picasso has the following features:
-- Image loading.
-- Resizing and Scaling of images. 
-- Center Cropping images.
-- Rotation and Transformation of images. 
-- Placeholder and Error images
-- Priority requests
-- Memory and disk Caching.
-- Fading
-- Supports parallel downloading and request cancellation. 
+- Image loading - This refers to accessing an image via a URL.
+- Resizing and Scaling of images - This refers to adjusting the size of an image. 
+- Center Cropping images - This is scaling a whole image by resampling it.
+- Rotation and Transformation of images - This refers to changing the orietation of an image from a point.
+- Placeholder and Error images - This refers to images displayed when there is an error or when an image is being loaded into an ImageView.
+- Priority requests -  This refers to an option of loading images into an ImageView depending on its priority to be displayed e.g a Hero image can be given the first  priority to load an image before other minor image views.
+- Memory and disk Caching - Caching allows for offline capabilities and less resource usage. It ensures the image is not downloaded every time it is needed.
+- Fading - This refers to an animation feature offered by Picasso.
+- Supports parallel downloading and request cancellation - Paralle downloading refers to downloading two images at the same time where as request cancellation refers to cancelling image requests.
 
 ### Advantages of Picasso.
 - Picasso offers high quality loaded images. 
@@ -28,20 +28,19 @@ Picasso has the following features:
 - [Glide](https://github.com/bumptech/glide) loads images faster than Picasso.
 
 ### Useful Terminology
-- [Picasso](https://square.github.io/picasso/) - a powerful image loading, downloading, and caching library developed by Square.
 - [Library](https://developer.android.com/studio/projects/android-library#:~:text=An%20Android%20library%20is%20structurally,files%2C%20and%20an%20Android%20manifest.&text=AAR%20files%20can%20contain%20C,app%20module's%20C%2FC%2B%2B%20code) - This refers to a file that compiles into an Android Archive (AAR) file used as a dependency. 
 - [Caching](https://appmattus.medium.com/caching-made-simple-on-android-d6e024e3726b) - The process of storing data in a temporary storage area(cache).
 - [Multithread networking](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)) This refers to the ability to work on multiple tasks at the same time.
 - Bitmap - This refers to a digital image composed of a matrix and dots used to store digital photos. 
 
 ### Prerequisites
-- It would be best to have [Android Studio](https://developer.android.com/studio) installed.
-- A basic knowledge and understanding of XML and Java programming language.  
-- A basic understanding of image loading in android applications.
-- A basic experience and knowledge of developing and creating Android applications.
+- Have [Android Studio](https://developer.android.com/studio) installed. 
+- The reader should have a beginner level understanding of  Java and XML.  
+- The reader should have basic understanding of image loading in android applications.
+
 
 ### Step 1 – Create a new AndroidStudio Project
-- Open Android studio. Select Start new Android Studio Project -->  Empty Activity -->. Let us name the **Picasso**. Click Finish and wait for the project to build.
+- Open Android studio. Select Start new Android Studio Project ->  Empty Activity ->. Let us name the **Picasso**. Click Finish and wait for the project to build.
 
 ![Name the project](/engineering-education/using-picasso-in-android/name.jpg)
 
@@ -58,7 +57,7 @@ Add internet permission to you application.
 ```
 
 #### Step 3 – Design the XML layout resource file.
- In this step, we will design the UI for our mobile application. Our layout will contain an ImageView, which will display our image and nine buttons, each with a different function to illustrate Picasso's features.
+In this step, we will design our layout for our application. Our layout will contain an ImageView, which will display our image and nine buttons, each with a different function to illustrate Picasso's features.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -221,9 +220,9 @@ Add internet permission to you application.
 ### Step 3 – Initialize objects. 
 In our `MainActivity` class, initialize the image view and the buttons that are in the layout resource file.
 ```java
- ImageView imageView;
- int i = 0;
- Button buttonDrawableImage,buttonUrlImage, buttonErrorImage, buttonPlaceholderImage, buttonCallback, buttonResizeImage, buttonRotateImage, buttonScaleImage,       buttonTarget;
+ImageView imageView;
+int i = 0;
+Button buttonDrawableImage,buttonUrlImage, buttonErrorImage, buttonPlaceholderImage, buttonCallback, buttonResizeImage, buttonRotateImage, buttonScaleImage, buttonTarget;
 ```
 
 ### Step 4 – Create a custom method.
@@ -239,7 +238,7 @@ In our `MainActivity` class, initialize the image view and the buttons that are 
 - URL.
 
 ### a)Resizing an image.
- **Resizing** refers to adjusting the size of an image by cropping, scaling, and others. Picasso allows us to resize images before displaying an image using the `resize()` method and setting the desired height and width. In our `MainActivity.java`, in the `initializeView` method, add the following lines of code; 
+ **Resizing** refers to adjusting the size of an image by cropping, scaling, and others. Picasso allows us to resize images before displaying an image using the `resize()` method and setting the desired height and width. In our `MainActivity.java`, in the `onClick` method, add the following lines of code; 
 
 ```java
 
@@ -254,7 +253,7 @@ Picasso.get().load(R.drawable.image).resize(200, 200).into(imageView);
 
 **Note: The `fit ()` method is not used together with the `resize()` method since it has in-built dimensions. `centerCrop()` and `centerInside()` methods are used together with the `resize()` method.
 
-In our `MainActivity.java`, add the following lines of code in the `initializeView` method.
+In our `MainActivity.java`, add the following lines of code in the `onClick` method.
 ```java
   case R.id.showScaling:
                 if (i == 3)
@@ -276,7 +275,7 @@ In our `MainActivity.java`, add the following lines of code in the `initializeVi
  ```
 
 ### c)Loading a Drawable image.
-Loading a drawable image is a basic feature offered by Picasso. Other than assigning an image view on the XML manually, one can easily assign an image through Picasso. In our `MainActivity.java`, in the `initializeView` method, add the following lines of code;
+Loading a drawable image is a basic feature offered by Picasso. Other than assigning an image view on the XML manually, one can easily assign an image through Picasso. In our `MainActivity.java`, in the `onClick` method, add the following lines of code;
 ```java
 buttonDrawableImage = (Button) findViewById(R.id.showDrawable); buttonDrawableImage.setOnClickListener(this); 
  switch (view.getId()) {
@@ -285,7 +284,7 @@ buttonDrawableImage = (Button) findViewById(R.id.showDrawable); buttonDrawableIm
 	 break;
 ```
 ### d)Placeholder
-A placeholder usually is a drawable image displayed before an image is loaded into an image view. This feature comes in handy, especially if an image takes time to be loaded. In our `MainActivity.java`, in the `initializeView` method, add the following lines of code;
+A placeholder usually is a drawable image displayed before an image is loaded into an image view. This feature comes in handy, especially if an image takes time to be loaded. In our `MainActivity.java`, in the `onClick` method, add the following lines of code;
 
 ```java
 buttonPlaceholderImage = (Button) findViewById(R.id.showPlaceholder); buttonPlaceholderImage.setOnClickListener(this);
@@ -295,7 +294,7 @@ buttonPlaceholderImage = (Button) findViewById(R.id.showPlaceholder); buttonPlac
 	 break;
 ```
 ### e)Callback methods.
-Picasso provides callback methods to keep track and show a loaded image's status and display a text/toast accordingly. We have displayed a toast message to show either an image is loaded successfully or an error. In our `MainActivity.java`, in the `initializeView` method, add the following lines of code;
+Picasso provides callback methods to keep track and show a loaded image's status and display a text/toast accordingly. We have displayed a toast message to show either an image is loaded successfully or an error. In our `MainActivity.java`, in the `onClick` method, add the following lines of code;
 ```java
  buttonCallback = (Button) findViewById(R.id.showCallBack); buttonCallback.setOnClickListener(this); 
 
@@ -313,7 +312,7 @@ Picasso provides callback methods to keep track and show a loaded image's status
                 break;
 ```
 ### f)Errors
-An error drawable is usually displayed when an image is not loaded successfully. We use the `error()` method. In our `MainActivity.java`, in the `initializeView` method, add the following lines of code; 
+An error drawable is usually displayed when an image is not loaded successfully. We use the `error()` method. In our `MainActivity.java`, in the `onClick` method, add the following lines of code; 
 
 ```java
 buttonErrorImage = (Button) findViewById(R.id.showError); buttonErrorImage.setOnClickListener(this); 
@@ -323,7 +322,7 @@ buttonErrorImage = (Button) findViewById(R.id.showError); buttonErrorImage.setOn
 	 break;
 ```
 ### g)Rotate
-This refers to changing the orientation of an image by degrees from a point (0,0). A `rotate()` method is normally used. 
+This refers to changing the orientation of an image by degrees from a point (0,0). A `rotate()` method is normally used. In our `MainActivity.java`, in the `onClick` method, add the following lines of code; 
 ```java
 buttonRotateImage = (Button) findViewById(R.id.showRotate); buttonRotateImage.setOnClickListener(this); 
 
@@ -332,7 +331,7 @@ case R.id.showRotate:
 	 break;
 ```  
 ### h)Targets  
-Targets combine image loading, callbacks, and errors. Targets return bitmap images. Targets normally use `onBitmapLoaded()`, `onBitmapFailed()` and on `Prepared()` methods. In our `MainActivity.java`, outside `initializeView` method, add the following lines of code:
+Targets combine image loading, callbacks, and errors. They return bitmap images. Targets normally use `onBitmapLoaded()`, `onBitmapFailed()` and on `Prepared()` methods.In our `MainActivity.java`, in the `onClick` method, add the following lines of code; 
 ```java
 buttonTarget = (Button) 
 findViewById(R.id.showTarget); buttonTarget.setOnClickListener(this); 
@@ -362,7 +361,7 @@ Next create a `Target` object with it's respective methods.
     };
 ```
 ### i)Loading an image from a URL.
-Rather than downloading images, we can simply display the images through picasso using a link without downloading them. We normally use a load() method. In the `MainActivity.java` class in the `initializeView` method add the following lines of code:
+Rather than downloading images, we can simply display the images through picasso using a link without downloading them. We normally use a load() method. In our `MainActivity.java`, in the `onClick` method, add the following lines of code; 
 
 ```java
  String url = "https://www.pexels.com/photo/low-angle-photo-of-woman-leaning-on-metal-railing-3621953/";
@@ -373,155 +372,9 @@ Rather than downloading images, we can simply display the images through picasso
 	 Picasso.get().load(url).into(imageView);
 	 break;
 ```
-This is the final code in our Mainactivity.java:
-```java
-package com.example.picasso;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.pm.PackageInfo;
-import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
-
-import com.squareup.picasso.Callback;
-import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
-
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    ImageView imageView;
-    int i = 0;
-    Button buttonDrawableImage, buttonUrlImage, buttonErrorImage, buttonPlaceholderImage, buttonCallback, buttonResizeImage, buttonRotateImage, buttonScaleImage, buttonTarget;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        initializeView();
-
-    }
-
-    private void initializeView() {
-
-        imageView = (ImageView) findViewById(R.id.myImageView);
-        buttonUrlImage = (Button) findViewById(R.id.showUrl);
-        buttonScaleImage = (Button) findViewById(R.id.showScaling);
-        buttonTarget = (Button) findViewById(R.id.showTarget);
-        buttonDrawableImage = (Button) findViewById(R.id.showDrawable);
-        buttonPlaceholderImage = (Button) findViewById(R.id.showPlaceholder);
-        buttonCallback = (Button) findViewById(R.id.showCallback);
-        buttonResizeImage = (Button) findViewById(R.id.showResize);
-        buttonRotateImage = (Button) findViewById(R.id.showRotation);
-        buttonErrorImage = (Button) findViewById(R.id.showError);
-
-
-        buttonUrlImage.setOnClickListener(this);
-        buttonDrawableImage.setOnClickListener(this);
-        buttonPlaceholderImage.setOnClickListener(this);
-        buttonCallback.setOnClickListener(this);
-        buttonResizeImage.setOnClickListener(this);
-        buttonErrorImage.setOnClickListener(this);
-        buttonRotateImage.setOnClickListener(this);
-        buttonScaleImage.setOnClickListener(this);
-        buttonTarget.setOnClickListener(this);
-
-    }
-
-    @Override
-    public void onClick(View view) {
-
-        String url = "https://www.pexels.com/photo/low-angle-photo-of-woman-leaning-on-metal-railing-3621953/";
-
-        switch (view.getId()) {
-            case R.id.showUrl:
-                Picasso.get().load(R.drawable.shh).into(imageView);
-                break;
-
-            case R.id.showDrawable:
-                Picasso.get().load(R.drawable.image).into(imageView);
-                break;
-
-            case R.id.showPlaceholder:
-                Picasso.get().load(R.drawable.placeholder).into(imageView);
-                break;
-
-            case R.id.showError:
-                Picasso.get().load("www.google.com").placeholder(R.drawable.placeholder).error(R.drawable.error).into(imageView);
-                break;
-
-            case R.id.showCallback:
-                Picasso.get().load("www.google.com").error(R.mipmap.ic_launcher).into(imageView, new Callback() {
-                    @Override
-                    public void onSuccess() {
-                        Log.d("TAG", "onSuccess");
-                    }
-                    @Override
-                    public void onError(Exception exception) {
-                        Toast.makeText(getApplicationContext(), "Cannot fetch data error", Toast.LENGTH_SHORT).show();
-                    }
-                });
-                break;
-
-            case R.id.showResize:
-                Picasso.get().load(R.drawable.image).resize(200, 200).into(imageView);
-                break;
-
-            case R.id.showRotation:
-                Picasso.get().load(R.drawable.image).rotate(90f).into(imageView);
-                break;
-
-            case R.id.showScaling:
-                if (i == 3)
-                    i = 1;
-                else {
-                    if (i == 3) {
-                        Picasso.get().load(R.drawable.image).resize(200, 200).centerInside().into(imageView);
-                        Toast.makeText(getApplicationContext(), "Scale:Center Inside", Toast.LENGTH_SHORT).show();
-                    } else if (i == 2) {
-                        Picasso.get().load(R.drawable.image).resize(200, 200).centerCrop().into(imageView);
-                        Toast.makeText(getApplicationContext(), "Scale:Center Crop", Toast.LENGTH_SHORT).show();
-                    } else if (i == 1) {
-                        Picasso.get().load(R.drawable.image).fit().into(imageView);
-                        Toast.makeText(getApplicationContext(), "Scale:Fit", Toast.LENGTH_SHORT).show();
-                    }
-                    i++;
-                }
-                break;
-
-            case R.id.showTarget:
-                Picasso.get().load("https://cdn.journaldev.com/wp-content/uploads/2017/01/android-constraint-layout-sdk-tool-install.png").placeholder(R.drawable.placeholder).error(R.drawable.error).into(myTarget);
-                break;
-        }
-    }
-
-    private Target myTarget = new Target() {
-        @Override
-        public void onBitmapLoaded(Bitmap myBitmap, Picasso.LoadedFrom from) {
-
-            imageView.setImageBitmap(myBitmap);
-        }
-
-        @Override
-        public void onBitmapFailed(Exception exception, Drawable drawablerror) {
-            imageView.setImageDrawable(drawablerror);
-        }
-
-        @Override
-        public void onPrepareLoad(Drawable drawablePlaceHoler) {
-            imageView.setImageDrawable(drawablePlaceHoler);
-        }
-    };
-}
-```
+**Note: Picasso does not cache images from URLs without image extensions, i.e if the image URL does not end with `.png`, `.jpg` etc.**
 We are done! Let us run the app.
-[Picasso]()
+![Picasso](/engineering-education/using-picasso-in-android/app.gif)
 
 ### Conclusion. 
 Picasso is a powerful image loading library with various features. We have discussed scaling, resizing, targets, callbacks, and the rest. Instead of manually implementing all these features with a bunch of code, why not use Picasso, which is easy to use and offers better syntax. Go on and read more about Picasso in their official documentation and other features offered by Picasso and implement them in Android Applications. 
