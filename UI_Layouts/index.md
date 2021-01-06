@@ -7,7 +7,7 @@ Currently, Google's [Constraint](https://developer.android.com/reference/android
 
 ### Anatomy of Android Layouts.
 - Root Element: This refers to layouts that encapsulate all the XML elements. Examples are Constraint, Linear, Relative, and Frame Layouts.
-***Note:One can only use one root element for the UI of an application.**
+**Note:One can only use one root element for the UI of an application.**
 - View: This refers to an object in Android's built-in View class, represented by the rectangular area of the screen, e.g., TextView, ImageView, Button, and others.
 - View Group: This refers to an 'invisible container' that holds multiple views or view groups together, e.g., Linear Layout, Grid Layout, Table Layout, and others.
 
@@ -22,13 +22,13 @@ One can use it either as a root element or a view group.
 
 ### Linear Layout Attributes.
 The following attributes are specific to Linear Layout:
-1.`android:id` - This is a unique ID signed to a specific layout.
-2.`android:baselineAligned` – This is a boolean value ( "true" or "false" ) that prevents the layout from aligning its children's baselines.
-3.`android:gravity` – This specifies an object's position on both the vertical and horizontal axes.
-4.`andoid:orientation` – This specifies the vertical or horizontal arrangement of objects. 
-5.`android:weightSum`- Sum up of child weight.
-6.`android:baselineAlignedChildIndex`- It specifies which of its children to baseline align.
-7.`android:divider` - This refers to a drawable used as a vertical divider between buttons.
+- `android:id` - This is a unique ID signed to a specific layout.
+- `android:baselineAligned` – This is a boolean value ( "true" or "false" ) that prevents the layout from aligning its children's baselines.
+- `android:gravity` – This specifies an object's position on both the vertical and horizontal axes.
+- `andoid:orientation` – This specifies the vertical or horizontal arrangement of objects. 
+- `android:weightSum`- Sum up of child weight.
+- `android:baselineAlignedChildIndex`- It specifies which of its children to baseline align.
+- `android:divider` - This refers to a drawable used as a vertical divider between buttons.
 
 ### Pros and Cons of Linear Layout.
 ### Pros
@@ -47,13 +47,13 @@ The position of each view can be relative to sibling elements or relative to the
 
 ### Relative Layout Attributes.
 The following attributes are specific to Relative Layout:
-1.`android:id` - This is a unique ID signed to a specific layout.
-2.`android:gravity` – This specifies an object's position on both the vertical and horizontal axes.
-3.`android:ignoreGravity` – This ensures that a specific view is not affected by gravity.
-4.`android:layout_above` – Positions a child view above a given ID view.
-5.`android:layout_alignBottom`, `android:layout_alignLeft`, `android:layout_alignRight`, `android:layout_alignStart`, - Positions a child view at the top,bottom,right or left of a given ID view.
-7.`android:layout_alignParentBottom`, `android:layout_alignParentEnd`, `android:layout_alignParentLeft`, `android:layout_alignParentRight`, `android:layout_alignParentStart`, `android:layout_alignParentTop` - Positions a child view at the top,bottom,right or left of a of the parent. They normally use a boolean value I.e “ true” or “false”
-8.`android:layout_centerHorizontal`, `android:layout_centerInParent`, `android:layout_centerVertical` – This is used to center a child either horizontally, vertically or inside a parent.
+- `android:id` - This is a unique ID signed to a specific layout.
+- `android:gravity` – This specifies an object's position on both the vertical and horizontal axes.
+- `android:ignoreGravity` – This ensures that a specific view is not affected by gravity.
+- `android:layout_above` – Positions a child view above a given ID view.
+- `android:layout_alignBottom`, `android:layout_alignLeft`, `android:layout_alignRight`, `android:layout_alignStart`, - Positions a child view at the top,bottom,right or left of a given ID view.
+- `android:layout_alignParentBottom`, `android:layout_alignParentEnd`, `android:layout_alignParentLeft`, `android:layout_alignParentRight`, `android:layout_alignParentStart`, `android:layout_alignParentTop` - Positions a child view at the top,bottom,right or left of a of the parent. They normally use a boolean value I.e “ true” or “false”
+- `android:layout_centerHorizontal`, `android:layout_centerInParent`, `android:layout_centerVertical` – This is used to center a child either horizontally, vertically or inside a parent.
 ### Pros and Cons of Relative Layout.
 ### Pros.
 - Relative layout is much flexible compared to the linear layout.
@@ -74,10 +74,10 @@ For any version below this, add the following dependency to the app-level module
 ```
 **Note: An error will always be displayed if the views are not constrained.**
 ### Constraint Layout Attributes.
-1.`android:id` - This is a unique ID signed to a specific layout.
-2.`layout_constraintTop_toTopOf` , `layout_constraintTop_toBottomOf`,`layout_constraintBottom_toTopOf`,`layout_constraintBottom_toBottomOf` - Allign the bottom or top of a desired view to the top or bottom of another view.
-3.`layout_constraintLeft_toTopOf` ,`layout_constraintLeft_toBottomOf` ,`layout_constraintLeft_toLeftOf` ,`layout_constraintLeft_toRightOf`,`layout_constraintRight_toTopOf` ,`layout_constraintRight_toBottomOf` ,`layout_constraintRight_toLeftOf`,`layout_constraintRight_toRightOf`  - Align the right or left of a desired view to the right or left of another view.
-4.`layout_constraintVertical_bias`, `layout_constraintHorizontal_bias` - Used to position a view either vertically or horizontally at a particular point.
+- `android:id` - This is a unique ID signed to a specific layout.
+- `layout_constraintTop_toTopOf` , `layout_constraintTop_toBottomOf`,`layout_constraintBottom_toTopOf`,`layout_constraintBottom_toBottomOf` - Allign the bottom or top of a desired view to the top or bottom of another view.
+- `layout_constraintLeft_toTopOf` ,`layout_constraintLeft_toBottomOf` ,`layout_constraintLeft_toLeftOf` ,`layout_constraintLeft_toRightOf`,`layout_constraintRight_toTopOf` ,`layout_constraintRight_toBottomOf` ,`layout_constraintRight_toLeftOf`,`layout_constraintRight_toRightOf`  - Align the right or left of a desired view to the right or left of another view.
+- `layout_constraintVertical_bias`, `layout_constraintHorizontal_bias` - Used to position a view either vertically or horizontally at a particular point.
 
 ### Pros and Cons.
 ### Pros.
@@ -97,9 +97,9 @@ For any version below this, add the following dependency to the app-level module
 The Frame layout is one of the most basic and most straightforward layouts. This layout blocks out an area on the screen to display a single view group. The layout uses the `<FrameLayout>` tag. It is suitable to use this layout when the UI of an application only requires one view. One can use it either as a root element or a view group.
 
 ### Frame Layout Attributes.
-1.`android:id` - This is a unique ID signed to a specific layout.
-2.`android:foreground` - Refers to the drawable to be displayed over the content. 
-3.`android:foregroundGravity` - Defines the gravity direction applied to the foreground drawable.
+- `android:id` - This is a unique ID signed to a specific layout.
+- `android:foreground` - Refers to the drawable to be displayed over the content. 
+- `android:foregroundGravity` - Defines the gravity direction applied to the foreground drawable.
 Examples of the values are center_vertical, center_horizontal, top, bottom, left, right, and many others.
 
 ### Pros and Cons
@@ -128,4 +128,6 @@ The Grid layout displays items in a two-dimensional, scrollable grid. The Grid V
 The Table layout groups view into rows and columns depending on the size required. This layout is rarely used in Android compared to its use in web applications.  It can be used as both a root element and a view group, but it is advisable to use it under a root element. One can use it as both a view group and a root element. It is most suitable to use it under a root element.
 
 ### To wrap up
-Android application use layouts as the basic UI building block. We have learned about both root element and view group layouts and their uses. Feel free to research we have not discussed above and pratice most if not all of the layouts we have discussed above. Feel free to reach out incase of any query or clarification. Till next time!
+Android applications use layouts as the basic UI building block. We have learned about both the root element and view group layouts and their uses. We have also learned about attributes used by each root element. Feel free to research and practice most if not all of the layouts we have discussed above. 
+Just a tip, do not feel frustrated if you aren't grasping a concept for one of the layouts. Just research and practice, and you will be a pro in no time.
+In case of any query or clarification, feel free to reach out by raising an issue in this Github [repository](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/UI_Layouts). Till next time!
