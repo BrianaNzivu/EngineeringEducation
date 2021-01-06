@@ -130,4 +130,5 @@ The Table layout groups view into rows and columns depending on the size require
 ### To wrap up
 Android applications use layouts as the basic UI building block. We have learned about both the root element and view group layouts and their uses. We have also learned about attributes used by each root element. Feel free to research and practice most if not all of the layouts we have discussed above. 
 Just a tip, do not feel frustrated if you aren't grasping a concept for one of the layouts. Just research and practice, and you will be a pro in no time.
-In case of any query or clarification, feel free to reach out by raising an issue in this Github [repository](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/UI_Layouts). Till next time!
+In case of any query or clarification, feel free to reach out by raising an issue in this Github [repository](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/UI_Layouts). 
+Till next time!
