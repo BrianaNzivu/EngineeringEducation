@@ -18,7 +18,7 @@ Currently, Google's [Constraint](https://developer.android.com/reference/android
 This layout aligns its content in a single direction. It can be either vertical or horizontal. The layout uses the `<LinearLayout>` tag.
 One can use it either as a root element or a view group.
 
-![Linear Layout](/engineering-education/getting-started-with-android-ui-layouts/relative.jpg)
+![Linear Layout](/engineering-education/getting-started-with-android-ui-layouts/linear.jpg)
 
 ### Linear Layout Attributes.
 The following attributes are specific to Linear Layout:
@@ -72,6 +72,8 @@ For any version below this, add the following dependency to the app-level module
 ```gradle
     implementation "androidx.constraintlayout:constraintlayout:2.0.4"
 ```
+![Constraint Layout](/engineering-education/getting-started-with-android-ui-layouts/constraint.jpg)
+
 **Note: An error will always be displayed if the views are not constrained.**
 ### Constraint Layout Attributes.
 - `android:id` - This is a unique ID signed to a specific layout.
@@ -95,6 +97,8 @@ For any version below this, add the following dependency to the app-level module
 
 ### D) Frame Layout.
 The Frame layout is one of the most basic and most straightforward layouts. This layout blocks out an area on the screen to display a single view group. The layout uses the `<FrameLayout>` tag. It is suitable to use this layout when the UI of an application only requires one view. One can use it either as a root element or a view group.
+
+![Frame Layout](/engineering-education/getting-started-with-android-ui-layouts/frame.jpg)
 
 ### Frame Layout Attributes.
 - `android:id` - This is a unique ID signed to a specific layout.
