@@ -111,7 +111,7 @@ Examples of the values are center_vertical, center_horizontal, top, bottom, left
 - It is challenging to use it for a complex UI.
 
 ### View group layouts used in Android.
-The following are layouts popularly used as view groups.
+The following are layouts popularly used as view groups:
 ### A)ScrollView.
 The ScrollView is a view group that allows scrollable content. Scrolling in the ScrollView is either vertically or horizontally. The layout uses the `<ScrollView>` tag. A ScrollView can only support one direct child; otherwise, one must add view groups, e.g., Linear Layout, if they want the scroll view to be more detailed.  One can use it as a view group only. 
 
