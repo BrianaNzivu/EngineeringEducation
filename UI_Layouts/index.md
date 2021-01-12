@@ -1,7 +1,7 @@
 This article will cover the different User Interface(UI) layouts used in android application developments.
 
 ### Introduction
-The basic building block in the User Interface(UI) of an application is called a **View**. A view occupies the rectangular area of a mobile screen. A view contains a layout and a view group such as a `Button`, `ImageView`, `TextView`, and others. 
+The basic building block in the User Interface(UI) of an application is called a **View**. A view occupies the rectangular area of a mobile screen. A view can contain either a root element,view groups or views such as a `Button`, `ImageView`, `TextView`, and others. 
 These layouts design and guide the positioning of various view groups in an application. Every Mobile Application developer needs to learn and understand how to implement most, if not all, layouts.
 Currently, Google's [Constraint](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout) layout is the default layout used due to its flexibility and simplicity.
 
@@ -22,9 +22,7 @@ One can use it either as a root element or a view group.
 
 ### Linear Layout Attributes.
 The following attributes are specific to Linear Layout:
-- `android:id` - This is a unique ID signed to a specific layout.
 - `android:baselineAligned` – This is a boolean value ( "true" or "false" ) that prevents the layout from aligning its children's baselines.
-- `android:gravity` – This specifies an object's position on both the vertical and horizontal axes.
 - `andoid:orientation` – This specifies the vertical or horizontal arrangement of objects. 
 - `android:weightSum`- Sum up of child weight.
 - `android:baselineAlignedChildIndex`- It specifies which of its children to baseline align.
@@ -47,8 +45,6 @@ The position of each view can be relative to sibling elements or relative to the
 
 ### Relative Layout Attributes.
 The following attributes are specific to Relative Layout:
-- `android:id` - This is a unique ID signed to a specific layout.
-- `android:gravity` – This specifies an object's position on both the vertical and horizontal axes.
 - `android:ignoreGravity` – This ensures that a specific view is not affected by gravity.
 - `android:layout_above` – Positions a child view above a given ID view.
 - `android:layout_alignBottom`, `android:layout_alignLeft`, `android:layout_alignRight`, `android:layout_alignStart`, - Positions a child view at the top,bottom,right or left of a given ID view.
@@ -76,7 +72,6 @@ For any version below this, add the following dependency to the app-level module
 
 **Note: An error will always be displayed if the views are not constrained.**
 ### Constraint Layout Attributes.
-- `android:id` - This is a unique ID signed to a specific layout.
 - `layout_constraintTop_toTopOf` , `layout_constraintTop_toBottomOf`,`layout_constraintBottom_toTopOf`,`layout_constraintBottom_toBottomOf` - Allign the bottom or top of a desired view to the top or bottom of another view.
 - `layout_constraintLeft_toTopOf` ,`layout_constraintLeft_toBottomOf` ,`layout_constraintLeft_toLeftOf` ,`layout_constraintLeft_toRightOf`,`layout_constraintRight_toTopOf` ,`layout_constraintRight_toBottomOf` ,`layout_constraintRight_toLeftOf`,`layout_constraintRight_toRightOf`  - Align the right or left of a desired view to the right or left of another view.
 - `layout_constraintVertical_bias`, `layout_constraintHorizontal_bias` - Used to position a view either vertically or horizontally at a particular point.
