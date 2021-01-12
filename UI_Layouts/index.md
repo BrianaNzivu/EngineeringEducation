@@ -3,7 +3,7 @@ This article will cover the different User Interface(UI) layouts used in android
 ### Introduction
 The basic building block in the User Interface(UI) of an application is called a **View**. A view occupies the rectangular area of a mobile screen. A view can contain either a root element,view groups or views such as a `Button`, `ImageView`, `TextView`, and others. 
 These layouts design and guide the positioning of various view groups in an application. Every Mobile Application developer needs to learn and understand how to implement most, if not all, layouts.
-Currently, Google's [Constraint](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout) layout is the default layout used due to its flexibility and simplicity.
+Currently, Google's [Constraint](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout) layout is the default layout used due to its simplicity and flexibility.
 
 ### Anatomy of Android Layouts.
 - Root Element: This refers to layouts that encapsulate all the XML elements. Examples are Constraint, Linear, Relative, and Frame Layouts.
