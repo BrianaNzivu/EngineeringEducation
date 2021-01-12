@@ -119,16 +119,18 @@ The Nested ScrollView is just a ScrollView that can act as both a nested scrolli
 
 
 ### C)ListView
-The ListView displays content in a vertically scrollable list. The layout uses the `<ListView>` tag. The list view is a subclass of the AdapterView class. One can use it as both a view group and a root element. It is preferable to use it as a view group.
+The ListView displays content in a vertically scrollable list. The layout uses the `<ListView>` tag. The list view is a subclass of the AdapterView class. One can use it as both a view group and a root element, but it is preferable to use it as a view group.
+
 
 ### D) RecyclerView.
-The RecyclerView is the improved version of a `ListView` with better performance and improved features. The layout uses the `<RecyclerView>` tag. One can use it as both a view group and a root element. It is preferable to use it as a view group.
+The RecyclerView is the improved version of a `ListView` with better performance and improved features. The layout uses the `<RecyclerView>` tag. One can use it as both a view group and a root element, but it is preferable to use it as a view group.
 
 ### E) GridView.
-The Grid layout displays items in a two-dimensional, scrollable grid. The layout uses the `<GridView>` tag. The Grid View is a subclass of the `AdapterView` class. This layout is slowly becoming outdated as developers have found other ways to have a more responsive grid layout. One can use it as both a view group and a root element. It is preferable to use it as a view group.
+The Grid layout displays items in a two-dimensional, scrollable grid. The layout uses the `<GridView>` tag. The Grid View is a subclass of the `AdapterView` class. This layout is slowly becoming outdated as developers have found other ways to have a more responsive grid layout. One can use it as both a view group and a root element. One can use it as both a view group and a root element, but it is preferable to use it as a view group.
 
 ### F) TableLayout.
-The Table layout groups view into rows and columns depending on the size required. The layout uses the `<TableLayout>` tag. This layout is rarely used in Android compared to its use in web applications.  It can be used as both a root element and a view group, but it is advisable to use it under a root element. One can use it as both a view group and a root element. It is preferable to use it as a view group.
+The Table layout groups view into rows and columns depending on the size required. The layout uses the `<TableLayout>` tag. This layout is rarely used in Android compared to its use in web applications.  It can be used as both a root element and a view group, but it is advisable to use it under a root element. One can use it as both a view group and a root element. It is preferable to use it as a view group. One can use it as both a view group and a root element, but it is preferable to use it as a view group.
+
 
 ### To wrap up
 Android applications use layouts as the basic UI building block. We have learned about both the root element and view group layouts and their uses. We have also learned about attributes used by each root element. Feel free to research and practice most if not all of the layouts we have discussed above. 
