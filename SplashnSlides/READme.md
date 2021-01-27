@@ -340,7 +340,7 @@ That is it! Let us run our app.
 ![Introduction sliders](/engineering-education/implementing-a-splash-screen-and-intoduction-sliders-android/intro.jpg)
 
 ### To wrap up.
-We have leasarned about splash screens and introduction sliders and how to implement them in an android application. We have learned the uses and the importance of both. Read more and practice how to implement a splash screen and introduction sliders in mobile applications. Remember, practice makes perfect.
+We have learned about splash screens and introduction sliders and how to implement them in an android application. We have learned the uses and the importance of both. Read more and practice how to implement a splash screen and introduction sliders in mobile applications. Remember, practice makes perfect.
 One can access the tutorial's code on [Github]. Also, you can download the sample APK and files used in the application on Google Drive.
 
 For any query or clarification, do not hesitate to raise an issue in this repository.
