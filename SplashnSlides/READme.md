@@ -341,7 +341,7 @@ That is it! Let us run our app.
 
 ### To wrap up.
 We have learned about splash screens and introduction sliders and how to implement them in an android application. We have learned the uses and the importance of both. Read more and practice how to implement a splash screen and introduction sliders in mobile applications. Remember, practice makes perfect.
-One can access the tutorial's code on [Github](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/SplashnSlides). Also, you can download the sample APK and files used in the application on Google Drive.
+One can access the tutorial's code on [Github](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/SplashnSlides). Also, you can download the sample APK and files used in the application on [Google Drive](https://drive.google.com/drive/folders/17N1m7tkaDeuPWkKrrlrdzCj827BHBpwf?usp=sharing).
 
 For any query or clarification, do not hesitate to raise an issue in this [repository](https://github.com/BrianaNzivu/EngineeringEducation/tree/main/SplashnSlides).
 
