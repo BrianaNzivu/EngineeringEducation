@@ -2,52 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442dc1ad-ecd7-4493-a594-6bd9bc7cc589" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Engineering Education.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/androidTest/java/com/example/picasso/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/java/com/example/picasso/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/drawable/droid.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/drawable/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/drawable/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/drawable/placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/app/src/test/java/com/example/picasso/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picasso/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/androidTest/java/com/example/covidtrackerretrofit/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/gen/com/example/covidtrackerretrofit/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/gen/com/example/covidtrackerretrofit/Manifest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/gen/com/example/covidtrackerretrofit/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/java/com/example/covidtrackerretrofit/Api.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/java/com/example/covidtrackerretrofit/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/java/com/example/covidtrackerretrofit/Results.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/java/com/example/covidtrackerretrofit/RetrofitClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/app/src/test/java/com/example/covidtrackerretrofit/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarvelRetrofit/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +59,15 @@
   </component>
   <component name="ProjectId" id="1lmbOV4oQmCAZQ0roVf9PVCg2Av" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CovidTrackerRetrofit" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="SvnConfiguration">
@@ -77,5 +82,11 @@
       <updated>1608205182104</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="140" width="472" height="513" key="FileChooserDialogImpl" timestamp="1608540440981">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="442" y="140" width="472" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1608540440981" />
   </component>
 </project>

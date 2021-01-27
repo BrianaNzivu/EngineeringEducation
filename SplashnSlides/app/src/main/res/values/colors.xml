@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#D2EBE3</color>
+    <color name="colorPrimaryDark">#D2EBE3</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="primary_dark_text">#28333d</color>
+    <color name="secondary_text">#434343</color>
+    <color name="secondary_light">#0A0A0A</color>
+
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="custom_divider_color">#dfdfdf</color>
+    <color name="highlight_text">#17A1D7</color>
+
+
+    <color name="bg_color">#5BF1F1F1</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="grey2">#ebebeb</color>
+
+    <color name="light_gray">#d8d6d5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="posts_counter_bg">#df3e3e3e</color>
+
+    <color name="like_icon_activated">#FF5252</color>
+    <color name="icons_counter_color">#828181</color>
+    <color name="circle_image_shadow">#8b8b8b</color>
+
+    <color name="send_comment_button_activated">#0097d3</color>
+    <color name="send_comment_button_deactivated">#7fcbe9</color>
+
+    <color name="facebook_button_color">#3b5999</color>
+    <color name="facebook_button_color_pressed">#2f477a</color>
+    <color name="google_button_color">#d44837</color>
+    <color name="google_button_color_pressed">#FFA43528</color>
+    <color name="button_pressed_text_color">#bcbcbc</color>
+
+    <color name="follow_button_color">#0097d3</color>
+    <color name="follow_button_pressed_color">#0087BC</color>
+    <color name="follow_button_light_color">@color/white</color>
+    <color name="follow_button_light_pressed_color">#f7f7f7</color>
+
+
+    <color name="dot_dark_screen1">#C2185B</color>
+    <color name="dot_dark_screen2">#430d64</color>
+    <color name="dot_dark_screen3">#00695C</color>
+    <color name="dot_dark_screen4">#ef6c00</color>
+    <color name="dot_dark_screen5">#3E2723</color>
+
+    <color name="dot_light_screen1">#F8BBD0</color>
+    <color name="dot_light_screen2">#E1BEE7</color>
+    <color name="dot_light_screen3">#80CBC4</color>
+    <color name="dot_light_screen4">#FFE0B2</color>
+    <color name="dot_light_screen5">#A1887F</color>
+
+
+    <array name="dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+
+    <color name="colorWhite">#B8F8F8F8</color>
+    <color name="colorGrey">#c3c3c3 </color>
+
+
+</resources>
