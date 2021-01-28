@@ -31,6 +31,7 @@ In this section, we are going to create a splash screen for our application.
 
 ### Step 1 – Create a new Android Studio Project.
 Open Android Studio and select an Empty Activity. We shall name our project **SplashnSlides**. Click *Finish* and wait for the project to build.
+![Creating an Android Studio project](/engineering-education/implementing-a-splash-screen-and-intoduction-sliders-android/new.jpg)
 
 ### Step 2 – Designing the splash screen.
 In this step, we will design our splash screen. 
@@ -337,7 +338,7 @@ public class MainActivity extends AppCompatActivity {
 
 That is it! Let us run our app.
 
-![Introduction sliders](/engineering-education/implementing-a-splash-screen-and-intoduction-sliders-android/intro.jpg)
+![Introduction sliders](/engineering-education/implementing-a-splash-screen-and-intoduction-sliders-android/intro.gif)
 
 ### To wrap up.
 We have learned about splash screens and introduction sliders and how to implement them in an android application. We have learned the uses and the importance of both. Read more and practice how to implement a splash screen and introduction sliders in mobile applications. Remember, practice makes perfect.
